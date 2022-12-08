@@ -1,0 +1,107 @@
+body{
+    background: grey;
+}
+
+/*
+a:hover{
+    background-color: blue !important;
+    color: white;
+    font-size: 25px;
+}
+*/
+
+button:hover{
+    background-color: aqua;
+    color: red;
+    font-size: 22px;
+}
+/*
+li:nth-child(1){
+    background: red;
+    color: blue;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+*/
+
+.second-list li:nth-child(1){
+    background-color: aqua;
+}
+
+.second-list li:nth-child(3){
+    background: green;
+    color: red;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+img{
+    position: relative;
+    float: left;
+    margin: 10px;
+    opacity: 0.5;
+     /*left: 150px;
+    margin-top: 100px;
+    top: 200px;
+    right: 200px;
+   padding-bottom: 2000px;
+    margin-bottom: 2000px;*/
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    padding: 10px;
+
+}
+
+div ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: blue !important;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+li a{
+    color: aqua;
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: red;
+}
+
+li.dropdown{
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    background-color: purple;
+    width: 150px;
+    position: absolute;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content a{
+    color: white;
+    padding: 2px;
+    display: block;
+   
+
+}
+
+.dropdown-content a:hover{
+    background-color: black;
+}
